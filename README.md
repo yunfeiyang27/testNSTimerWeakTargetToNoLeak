@@ -3,3 +3,5 @@
 
 解决方案：
 我们可以造个假的 target 给 NSTimer 。这个假的 target 类似于一个中间的代理人，它做的唯一的工作就是挺身而出接下了 NSTimer 的强引用。
+
+另外还可以用 block 来调用 NSTimer。
